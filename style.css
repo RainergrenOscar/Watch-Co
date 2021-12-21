@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+
+html body {
+  background: url(img/bg.jpg);
+  background-size: cover;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+/* NAVBAR */
+.navbar .navbar-nav .nav-link {
+  color: #f5f5f5;
+  font-size: 1.1em;
+  margin-top: 15px;
+  margin-left: 50px;
+  margin-right: 20px;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #191922;
+}
+.navbar-logo-centered .navbar-nav .nav-link {
+  padding: 0.5em 1em;
+}
+
+#logoImg {
+  width: 77px;
+  height: 70px;
+  margin-top: 1px;
+  margin-bottom: 0px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.brand {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px !important;
+  display: block;
+}
+
+.form-control {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding-right: 10px;
+  margin-right: 4px;
+}
+.navbar-brand {
+  height: 70px;
+}
+
+.searchNav {
+  max-width: 260px;
+}
+
+@media screen and (max-width: 991px) {
+  .searchNav {
+    margin-left: 7%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .searchNav {
+    margin-left: 9.5%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .searchNav {
+    margin-left: 12%;
+  }
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  background: url(#);
+  background-size: cover;
+  background-color: black;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.fixedcolor {
+  color: rgb(255, 71, 71);
+}
+.fixedcolor:hover {
+  color: rgb(138, 0, 0);
+}
+
+.loginContainer {
+  width: 500px;
+  max-width: 500px;
+  margin: 1rem;
+  padding: 2rem;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background: white;
+}
+
+.signupbtn {
+  background-color: red;
+  color: white;
+  width: 100%;
+  height: 35px;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.titleNames {
+  color: white;
+  position: absolute;
+  top: 15%;
+  font-size: xx-large;
+}
+
+#slideshowimg {
+  width: 1000px;
+  margin-top: 13px;
+}
+
+.carouselCategories {
+  color: white;
+  display: inline;
+  display: flex;
+  position: absolute;
+  top: 25%;
+  justify-content: center;
+}
+
+#carouselTestId {
+  padding-top: 85px;
+}
+
+#carouselArrowsLeft {
+  padding-top: 75px;
+  left: 7rem;
+}
+
+#carouselArrowsRight {
+  padding-top: 75px;
+  right: 7rem;
+}
+
+@media screen and (max-width: 766px) {
+  .dropdown {
+    margin: -15px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  #carouselArrowsLeft {
+    left: 2rem;
+  }
+  #carouselArrowsRight {
+    right: 2rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #carouselArrowsLeft {
+    left: -2rem;
+  }
+  #carouselArrowsRight {
+    right: -2rem;
+  }
+}
